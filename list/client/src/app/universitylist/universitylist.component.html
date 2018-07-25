@@ -1,0 +1,4 @@
+<h1>University list</h1>
+<div *ngFor="let university of universities">
+  <li><a [routerLink]="['/singleuniversity', university._id]">{{university.universityname}}</a></li>
+</div>
